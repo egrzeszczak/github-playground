@@ -5,4 +5,5 @@ module.exports = {
 		"./pages/**/*.vue",
 		"./plugins/**/*.{js,ts}",
 	],
+	plugins: [require("daisyui")]
 };
