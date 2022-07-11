@@ -9,13 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: actions/checkout
-      uses: actions/checkout@v2.0.0
-    - name: actions/setup-node
-      uses: actions/setup-node@v1.4.1
-      with:
-        node-version: "16.15.1"
-      env:
-        ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+      uses: actions/checkout@v3
     - name: npm install
       uses: jaid/action-npm-install@v1.2.1
     - name: npm audit action
