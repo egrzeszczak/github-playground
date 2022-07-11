@@ -6,6 +6,6 @@
 			class="w-48 mask mask-hexagon"
 		/>
 		<progress class="progress bg-indigo-600 progress-secondary w-48"></progress>
-		<pre class="text-fuchsia-300">AI loading</pre>
+		<pre class="text-fuchsia-300">AI loading :)</pre>
 	</div>
 </template>
