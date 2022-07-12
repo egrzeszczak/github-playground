@@ -25,3 +25,7 @@ jobs:
       
       - run: npm run build
 
+      - name: Run typescript action
+        uses: egrzeszczak/typescript-action@master
+        
+
