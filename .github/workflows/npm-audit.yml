@@ -1,17 +1,12 @@
 name: 'Dependency package audit'
 on: [pull_request]
 
-permissions:
-  contents: read
-
 jobs:
   dependency-review:
     runs-on: ubuntu-latest
     steps:
     - name: actions/checkout
       uses: actions/checkout@v3
-    - name: npm install
-      uses: jaid/action-npm-install@v1.2.1
     - name: npm audit action
       uses: oke-py/npm-audit-action@v2.3.0
 
